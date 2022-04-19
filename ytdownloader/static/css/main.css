@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.ytForm{
+    background-color: white;
+    width: 70%;
+    height: auto;
+    border:2px solid black;
+    text-align: center;
+    justify-content: center;
+}
+.ytForm input[type="text"]{
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: .5em
+}
+#loading_d{
+    display:none;
+}
