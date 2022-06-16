@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+    <title>Thanks</title>
+</head>
+<body>
+    <div id="thx">
+        <div class="nav_bar">
+            <ul>
+                <li><a href="/">HOME</a></li>
+            </ul>
+        </div><br>
+    
+        <div class="thx">
+            <h1>Your video has been downloaded</h1>
+            <a href="/download/{{id}}/{{format}}">Save</a>
+        </div>
+    </div>
+
+</body>
+</html>

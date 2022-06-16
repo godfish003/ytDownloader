@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+    <title>ytDownloader</title>
+</head>
+<body>
+    <div class="ytForm">
+        <h1>YTDOWNLOADER</h1>
+        <form action="" method="post" onsubmit="change_dis()">
+            {% csrf_token %}
+            {{ form }} <br><br>
+            <input type="submit" value="Download">
+        </form>
+        <div id="loading_d">
+            <img id="gif" src="{% static '/media/loading-5.gif' %}" alt="loading ..." >
+        </div>
+        
+    </div>
+    
+</body>
+<script>
+    function change_dis(){
+        document.getElementById("loading_d").style.display="block";
+    }
+    
+</script>
+</html>
