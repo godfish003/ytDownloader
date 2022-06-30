@@ -60,7 +60,6 @@ body{
     border: none;
     border: 0%;
     width:15%;
-    min-width: 5.8em;
     transition: .5s;
     font-weight: bold;
 }
@@ -75,7 +74,6 @@ body{
     border: none;
     border: 0%;
     width: 100%;
-    min-width: 5.8em;
     transition: .5s;
 }
 #loading_d{

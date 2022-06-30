@@ -8,6 +8,14 @@ body{
     display: flex;
     justify-content: center;
 }
+.divTitle{
+    color:white;
+    background-color: black;
+    font-size: 3em;
+    font-family: inherit;
+    width: 100%;
+    height: auto;
+}
 .ytForm{
     background-color: white;
     width: 70%;
